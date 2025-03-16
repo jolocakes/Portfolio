@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cruzada_style.css">
+    <link rel="icon" href="images/contact.jpg">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="flex-contact">
+        <div class="logo">
+            <img src="images/contact.jpg" alt="">
+            <h1>Contact Us</h1>
+        </div>
+        <hr>
+        <div class="container">
+            <form action="#" method="post">
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname" placeholder="Enter your first name" required><br><br>
+
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" placeholder="Enter your last name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="yourname@example.com" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="0912-345-6789" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
+                    required><br><br>
+
+                <label for="size">Company Size:</label>
+                <select name="Company Size" id="size" required>
+                    <option value="micro">0-9</option>
+                    <option value="small">10-49</option>
+                    <option value="medium">50-249</option>
+                    <option value="large">250 or more</option>
+                </select><br><br>
+
+                <label for="job">Job Title:</label>
+                <input type="text" id="job" placeholder="Your job title" required><br><br>
+
+                <label for="country">Country:</label>
+                <select name="country" id="country" required>
+                    <option value="Philippines 🇵🇭">Philippines 🇵🇭</option>
+                    <option value="Norway 🇳🇴">Norway 🇳🇴</option>
+                    <option value="Brazil 🇧🇷">Brazil 🇧🇷</option>
+                    <option value="South Korea 🇰🇷">South Korea 🇰🇷</option>
+                    <option value="Kenya 🇰🇪">Kenya 🇰🇪</option>
+                    <option value="Canada 🇨🇦">Canada 🇨🇦</option>
+                    <option value="India 🇮🇳">India 🇮🇳</option>
+                    <option value="Argentina 🇦🇷">Argentina 🇦🇷</option>
+                    <option value="New Zealand 🇳🇿">New Zealand 🇳🇿</option>
+                    <option value="Egypt 🇪🇬">Egypt 🇪🇬</option>
+                    <option value="Sweden 🇸🇪">Sweden 🇸🇪</option>
+                </select><br><br>
+
+                <label for="discuss">What would you like to discuss?</label>
+                <textarea name="discuss" id="discuss" rows="3" cols="50"
+                    placeholder="Type your message here..."></textarea><br><br>
+                <hr>
+                <div class="button-center">
+                    <button type="submit">Submit</button>
+                    <a href="index.html"><button type="button">Cancel</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

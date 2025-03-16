@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/backg.jpg);
+    color: #333;
+    padding: 20px;
+    transition: 1s;
+}
+
+.profile {
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFEDFA;
+    border-radius: 30px;
+    box-shadow: 0px 10px 15px pink;
+    margin: auto;
+    max-width: 800px;
+}
+
+button {
+    background-color: pink;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: medium;
+    transition: .5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #BE5985;
+}
+
+nav {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px #BE5985;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 10px 15px;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    background-color: #BE5985;
+}
+
+img {
+    width: 350px;
+    border: 3px solid pink;
+    border-radius: 175px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 5px 15px #BE5985;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.logo img {
+    width: 70px;
+}
+.list {
+    line-height: 8px;
+}
+.course {
+    font-weight: bold;
+}
+.interestspace {
+    line-height: 30px;
+
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    margin: auto;
+    border-radius: 40px;
+    max-width: 800px;
+    box-shadow: 0px 10px 20px pink;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card {
+    background-color:#FFEDFA;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px #FFB8E0;
+    margin: 0px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: pink;
+    outline: none;
+    box-shadow: 0px 0px 8px pink;
+}
+
+.flex-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #FFEDFA;
+    margin: auto;
+    border-radius: 40px;
+    max-width: 600px;
+    box-shadow: 0px 10px 20px pink;
+}
